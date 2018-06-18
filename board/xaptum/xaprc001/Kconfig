@@ -1,0 +1,15 @@
+if TARGET_XAPRC001
+
+config SYS_BOARD
+	default "xaprc001"
+
+config SYS_VENDOR
+	default "xaptum"
+
+config SYS_SOC
+	default "at91"
+
+config SYS_CONFIG_NAME
+	default "xaprc001"
+
+endif

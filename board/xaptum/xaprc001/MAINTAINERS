@@ -1,0 +1,6 @@
+XAP-RC-001 Board
+M:	David R. Bild <david.bild@xaptum.com>
+S:	Maintained
+F:	board/xaptum/xaprc001/
+F:	include/configs/xaprc001.h
+F:	configs/xaprc001_mmc_defconfign

@@ -501,6 +501,9 @@ dtb-$(CONFIG_TARGET_SAMA5D4_XPLAINED) += \
 dtb-$(CONFIG_TARGET_VINCO) += \
 	at91-vinco.dtb
 
+dtb-$(CONFIG_TARGET_XAPRC001) += \
+	at91-xaprc001.dtb
+
 dtb-$(CONFIG_ARCH_BCM283X) += \
 	bcm2835-rpi-a-plus.dtb \
 	bcm2835-rpi-a.dtb \
