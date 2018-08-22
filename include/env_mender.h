@@ -62,7 +62,13 @@
                                                                         \
     "mender_post_setup_commands=" MENDER_UBOOT_POST_SETUP_COMMANDS "\0" \
                                                                         \
+    "mender_check_saveenv_canary=1\0"                                   \
+                                                                        \
     "mender_setup="                                                     \
+    "if test \"${mender_saveenv_canary}\" != \"1\"; then "              \
+    "setenv mender_saveenv_canary 1; "                                  \
+    "saveenv; "                                                         \
+    "fi; "                                                              \
     "if test \"${mender_pre_setup_commands}\" != \"\"; "                \
     "then "                                                             \
     "run mender_pre_setup_commands; "                                   \
