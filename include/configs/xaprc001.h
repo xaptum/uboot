@@ -37,7 +37,7 @@
 #define CONFIG_ENV_SIZE		0x4000
 
 #define CONFIG_BOOTCOMMAND \
-"if test ${CONFIG_BOOTARGS} = \"xaprc001_prov\"; then " \	
+"if test "${bootargs}" = \"xaprc001_prov\"; then " \	
         "setenv bootargs rw rootwait console=ttyS0,115200 earlyprintk; " \
         "bootz 0x22000000 - 0x21000000; " \
 "else " \
