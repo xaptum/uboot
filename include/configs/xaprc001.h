@@ -41,7 +41,7 @@
         "setenv bootargs rw rootwait console=ttyS0,115200 earlyprintk; " \
         "run mender_setup; " \
         "setenv bootargs root=${mender_kernel_root} ${bootargs}; " \
-        "ext4load ${mender_uboot_root} 0x21000000 /boot/at91-xaprw001.dtb; " \
+        "ext4load ${mender_uboot_root} 0x21000000 /boot/at91-xaprc.dtb; " \
         "ext4load ${mender_uboot_root} 0x22000000 /boot/zImage; " \
         "bootz 0x22000000 - 0x21000000; " \
         "run mender_try_to_recover;"

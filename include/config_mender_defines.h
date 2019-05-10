@@ -29,6 +29,6 @@
 */
 #define MENDER_BOOT_KERNEL_TYPE "bootz"
 #define MENDER_KERNEL_NAME "zImage"
-#define MENDER_DTB_NAME "at91-xaprw001.dtb"
+#define MENDER_DTB_NAME "at91-xaprc.dtb"
 #define MENDER_UBOOT_PRE_SETUP_COMMANDS ""
 #define MENDER_UBOOT_POST_SETUP_COMMANDS ""
